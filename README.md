@@ -34,6 +34,9 @@ curl https://clickhouse.com/ | sh
  ./clickhouse client --host 127.0.0.1 --secure --password 123456 --port 9000 --query "SELECT * from table" --format FormatName > result.txt
 ```
 
+--secure for ssl
+
+
 ### Import Data
 
 ```sh
